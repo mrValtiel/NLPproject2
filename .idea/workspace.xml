@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe43a6c3-4cba-4554-9cd7-85a66efc3ae2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/database/notspam/0001.2000-06-06.lokay.ham.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/notspam/0001.2000-06-06.lokay.ham.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/1064.2004-05-04.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/1064.2004-05-04.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/1474.2004-06-16.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/1474.2004-06-16.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/1939.2004-12-02.BG.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/1939.2004-12-02.BG.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/2526.2004-09-29.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/2526.2004-09-29.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/2526.2004-10-17.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/2526.2004-10-17.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/2698.2004-10-31.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/2698.2004-10-31.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/4102.2005-01-31.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/4102.2005-01-31.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/4209.2005-04-30.BG.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/4209.2005-04-30.BG.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/4210.2005-04-03.BG.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/4210.2005-04-03.BG.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/4522.2005-03-03.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/4522.2005-03-03.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/4566.2005-05-24.GP.spam.txt" beforeDir="false" afterPath="$PROJECT_DIR$/database/spam/4566.2005-05-24.GP.spam.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/5124.2005-05-07.GP.spam.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/5268.2005-05-24.GP.spam.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/5613.2005-07-10.GP.spam.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/spam/5687.2005-07-22.GP.spam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_convert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +18,8 @@
       <file leaf-file-name="data_convert.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_convert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state relative-caret-position="523">
+              <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -52,6 +39,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/data_mix.py" />
         <option value="$PROJECT_DIR$/data_convert.py" />
       </list>
     </option>
@@ -99,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="Project2" type="PythonConfigurationType" factoryName="Python">
       <module name="NLPproject2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,14 +121,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17122395" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39172414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39172414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -158,10 +145,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data_mix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="523">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
         </state>
       </provider>
     </entry>
