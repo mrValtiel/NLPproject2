@@ -3,7 +3,7 @@ import re
 answers = []
 results = []
 
-set_answers = open("set_test_with_answers", 'r')
+set_answers = open("set_test", 'r')
 for line in set_answers:
     x = str(line[0])
     answers.append(x)

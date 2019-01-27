@@ -19,6 +19,8 @@ for file in listSPAM:
     content = str(content)
     content = content.replace("b\'", "")
     content = content.replace("\n", " ")
+    content = content.replace("|", "")
+    content = content.replace(":", "")
     content = content.replace("Subject: ", "")
     content = "1 | " + content + "\n"
     listStrSpam.append(content)
@@ -40,6 +42,8 @@ for file in listNotSPAM:
     content = str(content)
     content = content.replace("b\'", "")
     content = content.replace("\n", " ")
+    content = content.replace("|", "")
+    content = content.replace(":", "")
     content = content.replace("Subject: ", "")
     content = "0 | " + content + "\n"
     listStrNotSpam.append(content)
@@ -88,22 +92,16 @@ print("Main set (90%) created")
 print("Mails: ", x)
 y = 0
 set_test = open("set_test", 'w+')
-set_test_with_answers = open("set_test_with_answers", 'w+')
 
 for i in range(a - a_test, a):
     lineSpam = str(listStrSpam[i])
     lineNotSpam = str(listStrNotSpam[i])
-    set_test_with_answers.write(lineSpam)
-    testSpamStr = lineSpam.replace("1 | ", "")
-    set_test.write(testSpamStr)
+    set_test.write(lineSpam)
     y += 1
-    set_test_with_answers.write(lineNotSpam)
-    testNotSpamStr = lineNotSpam.replace("0 | ", "")
-    set_test.write(testNotSpamStr)
+    set_test.write(lineNotSpam)
     y += 1
 
 set_test.close()
-set_test_with_answers.close()
 print("Test set (10%) created")
 print("Mails: ", y)
 print("All mails: ", str(x + y))
