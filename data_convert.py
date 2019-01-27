@@ -88,16 +88,22 @@ print("Main set (90%) created")
 print("Mails: ", x)
 y = 0
 set_test = open("set_test", 'w+')
+set_test_with_answers = open("set_test_with_answers", 'w+')
 
 for i in range(a - a_test, a):
     lineSpam = str(listStrSpam[i])
     lineNotSpam = str(listStrNotSpam[i])
-    set_test.write(lineSpam)
+    set_test_with_answers.write(lineSpam)
+    testSpamStr = lineSpam.replace("1 | ", "")
+    set_test.write(testSpamStr)
     y += 1
-    set_test.write(lineNotSpam)
+    set_test_with_answers.write(lineNotSpam)
+    testNotSpamStr = lineNotSpam.replace("0 | ", "")
+    set_test.write(testNotSpamStr)
     y += 1
 
 set_test.close()
+set_test_with_answers.close()
 print("Test set (10%) created")
 print("Mails: ", y)
 print("All mails: ", str(x + y))
