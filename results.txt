@@ -1,20 +1,26 @@
 data_convert.py output:
 --------------------------------------------
-SPAM files:  17142
-NotSPAM files:  16545
+SPAM files: 17142
+NotSPAM files: 16545
 SPAM file created
 notSPAM file created
-Main set (min - notspam):  14890
-Test set (min - notspam):  1654
-Main set (max - spam):  15427
-Test set (max - spam):  1714
+Main set (min - notspam): 14890
+Test set (min - notspam): 1654
+Main set (max - spam): 15427
+Test set (max - spam): 1714
 Creating mixed files with 50/50 spam/notspam
 Main set (90%) created
 Mails:  29780
 Test set (10%) created
 Mails:  3308
-All mails:  33088
+All mails: 33088
 --------------------------------------------
 
 Generation 0:
-#SPAM if word "free" occurs
+#SPAM if word "free" or "money" occurs
+Mails checked: 3308
+Mails detected as SPAM: 595
+Mails successfully detected: 1859
+Accuracy: 56.20%
+
+--------------------------------------------
