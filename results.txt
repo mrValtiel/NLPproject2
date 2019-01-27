@@ -455,5 +455,85 @@ worse
 --------------------------------------------
 Generation 6:
 
+vw set_main -l 10 -c --power_t 0.4 --passes 10 --holdout_off -f spam.model
+
+final_regressor = spam.model
+Num weight bits = 18
+learning rate = 10
+initial_t = 0
+power_t = 0.4
+decay_learning_rate = 1
+using cache_file = set_main.cache
+ignoring text input in favor of cache input
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+1.000000 1.000000            1            1.0   1.0000   0.0000      109
+0.500204 0.000408            2            2.0   0.0000   0.0202        6
+0.251685 0.003166            4            4.0   0.0000   0.0796        7
+0.425878 0.600071            8            8.0   0.0000   1.0000      670
+0.444020 0.462162           16           16.0   0.0000   0.4447       77
+0.289164 0.134308           32           32.0   0.0000   0.0025      111
+0.241149 0.193133           64           64.0   0.0000   0.0000      337
+0.160288 0.079427          128          128.0   0.0000   0.0000      242
+0.125965 0.091643          256          256.0   0.0000   0.2929      145
+0.103113 0.080262          512          512.0   0.0000   0.0000      112
+0.076961 0.050808         1024         1024.0   0.0000   0.0000      906
+0.056385 0.035808         2048         2048.0   0.0000   0.0000      401
+0.043006 0.029627         4096         4096.0   0.0000   0.0000       70
+0.035241 0.027476         8192         8192.0   0.0000   0.0000      155
+0.027011 0.018782        16384        16384.0   0.0000   0.0000       38
+0.021223 0.015435        32768        32768.0   0.0000   0.0000      120
+0.012791 0.004358        65536        65536.0   0.0000   0.0000      278
+0.007356 0.001922       131072       131072.0   0.0000   0.0000        8
+0.004106 0.000855       262144       262144.0   0.0000   0.0000     1145
+
+finished run
+number of examples per pass = 29780
+passes used = 10
+weighted example sum = 297800.000000
+weighted label sum = 148900.000000
+average loss = 0.003628
+best constant = 0.500000
+best constant's loss = 0.250000
+total feature number = 92953510
+
+
+vw set_test -i spam.model -p guessed
+
+predictions = guessed
+Num weight bits = 18
+learning rate = 0.5
+initial_t = 0
+power_t = 0.5
+using no cache
+Reading datafile = set_test
+num sources = 1
+average  since         example        example  current  current  current
+loss     last          counter         weight    label  predict features
+0.000000 0.000000            1            1.0   1.0000   1.0000      411
+0.000000 0.000000            2            2.0   0.0000   0.0000       66
+0.000000 0.000000            4            4.0   0.0000   0.0000       51
+0.125000 0.250000            8            8.0   0.0000   1.0000      282
+0.062500 0.000000           16           16.0   0.0000   0.0000      219
+0.042765 0.023031           32           32.0   0.0000   0.0000      259
+0.022837 0.002908           64           64.0   0.0000   0.0000      139
+0.030775 0.038713          128          128.0   0.0000   0.0000      246
+0.020175 0.009575          256          256.0   0.0000   0.0000       86
+0.014839 0.009504          512          512.0   0.0000   0.0000       64
+0.012499 0.010159         1024         1024.0   0.0000   0.0000      226
+0.013203 0.013907         2048         2048.0   0.0000   0.0000     1035
+
+finished run
+number of examples per pass = 3308
+passes used = 1
+weighted example sum = 3308.000000
+weighted label sum = 1654.000000
+average loss = 0.013526
+best constant = 0.500000
+best constant's loss = 0.250000
+total feature number = 893038
+
 RESULTS *****************************************************************
-Accuracy:
+Accuracy: 98.24667472793229 %
+better
